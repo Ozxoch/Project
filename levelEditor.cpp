@@ -106,9 +106,9 @@ bool EditLevel(char* pLevel, int& cursorX, int& cursorY, int width, int height)
 
 			newCursorY = 0;
 
-		else if (newCursorY == width)
+		else if (newCursorY == height)
 
-			newCursorY = width - 1;
+			newCursorY = height - 1;
 
 		cursorX = newCursorX;
 		cursorY = newCursorY;
